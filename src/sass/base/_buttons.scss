@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-color: transparent;
+
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.31;
+
+  cursor: pointer;
+}
+
+.button-menu {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.button--accent {
+  padding: 10px 15px;
+
+  min-height: 45px;
+  border-radius: 22px;
+  color: $primary-text-color;
+  background-color: $accent-color;
+}
