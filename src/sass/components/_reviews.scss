@@ -1,11 +1,11 @@
-.categories__list {
+.reviews__list {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-.categories__item {
+.reviews__item {
   color: $secondary-text-color;
   border-radius: 10px;
   background-image: $background-cards;
@@ -43,18 +43,21 @@
     }
   }
 }
+.reviews__title {
+  padding: 5px;
+  text-align: center;
+}
 
-.cateegories__img-container {
+.reviews__img-container {
   position: relative;
   width: 100%;
-  height: 250px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 460px;
+  border-radius: 10px;
 
   overflow: hidden;
 }
 
-.cateegories__img {
+.reviews__img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

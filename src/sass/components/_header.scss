@@ -1,5 +1,10 @@
 .header {
-  background-image: $background-hero;
+  font-weight: bold;
+  color: $primary-text-color;
+  // background-image: $background-hero;
+  background-image: url(/images/header/pink-air-balloons-2022.png), $background-hero;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .header__wrap {
@@ -26,6 +31,10 @@
 .header__contact-list-item {
   padding: 5px;
 }
+
+// .contact__link {
+//   color: $button-color-hover;
+// }
 
 // .icon-menu {
 //   width: 20px;

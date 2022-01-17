@@ -1,3 +1,12 @@
 .hero {
-  background-image: $background-hero;
+  padding: 20px 0;
+}
+
+.hero__paragraph {
+  font-weight: bold;
+  // color: $secondary-text-color;
+}
+
+.hero__paragraph--margin_bottom {
+  margin-bottom: 20px;
 }

@@ -1,13 +1,19 @@
-.hero__title {
-  margin-bottom: 30px;
-
-  font-size: 48px;
-}
-
 .section__title {
   text-align: center;
   margin-bottom: 20px;
 
   font-size: 22px;
-  color: $secondary-text-color;
+  color: $primary-text-color;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  color: $button-color-hover;
+  font-size: 48px;
+}
+
+.categories__title {
+  padding: 5px;
+  text-align: center;
+  color: $primary-text-color;
 }
