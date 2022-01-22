@@ -15,6 +15,18 @@
 
 .price-item {
   margin-bottom: 5px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+    background-color: $button-color-hover;
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
 }
 
 .price-icon {
