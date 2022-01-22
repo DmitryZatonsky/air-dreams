@@ -2,9 +2,13 @@
   font-weight: bold;
   color: $primary-text-color;
   // background-image: $background-hero;
-  background-image: url(/images/header/pink-air-balloons-2022.png), $background-hero;
+  background-image: $background-hero;
   background-repeat: no-repeat;
   background-position: top right;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(/images/header/pink-air-balloons-2022.png), $background-hero;
+  }
 }
 
 .header__wrap {
